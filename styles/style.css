@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+    background-image: url(../img/programando.jpg);
 }
 .titulo{
     text-decoration: underline;

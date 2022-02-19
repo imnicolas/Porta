@@ -1,9 +1,11 @@
 body{
-    background-color: aqua;
+    width: 100%;
     background-image: url(../img/aesteti.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 .titulo{
     text-decoration: underline;
@@ -11,8 +13,23 @@ body{
 
 #carouselExampleControls {
     margin: 0 auto;
-    max-width: 50%;
-    height: auto;
+    width: 70%;
     border: dashed 5px rgb(1, 78, 1);
     box-shadow: 1px 1px 5px black;
 }
+
+.carousel-item > img{
+    position: relative;    
+    height: 400px;
+    max-height: 600px;
+}
+
+/* 
+height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  */

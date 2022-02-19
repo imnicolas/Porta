@@ -23,3 +23,6 @@ body{
     height: 400px;
     max-height: 600px;
 }
+.navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-brand,.dropdown-item {
+    color: #ffc107;
+}

@@ -10,3 +10,11 @@ body{
 .titulo{
     text-decoration: underline;
 }
+
+#carouselExampleControls {
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border: dashed 5px rgb(1, 78, 1);
+    box-shadow: 1px 1px 5px black;
+}

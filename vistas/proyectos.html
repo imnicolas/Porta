@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <script src="https://kit.fontawesome.com/1c7acdadd1.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
     <!-- inicio nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
@@ -18,44 +20,44 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html"> Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Proyectos </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Equipo </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Proyectos </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Equipo </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ...
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <!-- fin nav -->
-      <!--inicio carrusel-->
-      <div class="row">
+    </nav>
+    <!-- fin nav -->
+    <!--inicio carrusel-->
+    <div class="row">
         <div class="col-md-12">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../assets/img/gatito1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/img/gatito2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/img/gatitos.jpg" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="../assets/img/gatito1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/gatito2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/img/gatitos.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -65,12 +67,41 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </div>
     </div>
     <!--fin carrusel-->
 
+    <!--inicio saludeitor 3000 -->
+    <div class="row">
+        <div class="'col-md-12">
+            <div id="JonyD's Saludeitor 3000">
+                <script>
+                    function saludar() {
+                        let nombre = document.querySelector('#nombre').value;
+                        if (nombre === '') {
+                            nombre = 'SALAME, no pusiste tu nombre';
+                        }
+                        document.querySelector('#result').innerHTML = 'Hola, ' + nombre + '!!!';
+                    }
+                </script>
+                <div>
+                    <form onsubmit="saludar(); return false;">
+                        <input type="text" id="nombre">
+                        <input type="submit">
+                    </form>
+                    <div id="result">
+                        Hola!!!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--fin saludeitor 3000 -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>

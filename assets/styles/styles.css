@@ -1,11 +1,17 @@
+:root{
+    --color-font:#087299;
+    --color-primary: #ffa91e;
+}
 body{
     width: 100%;
-    background-color: aqua;
-    background-image: url(../img/aesteti.jpg);
+    background-color: #fef9ef;
     background-position: center center;
     background-attachment: fixed;
     overflow-x: hidden;
-} 
+    } 
+h1,h2,h3,h4,h5,h6{
+    color:var(--color-font);
+}
 
 .titulo{
     text-decoration: underline;
@@ -24,5 +30,12 @@ body{
     max-height: 600px;
 }
 .navbar-dark .navbar-nav .nav-link,.navbar-dark .navbar-brand,.dropdown-item {
-    color: #ffc107;
+    color:var(--color-font);
+}
+.navbar {
+    background-color: #274c77;
+    background: var(--color-primary);
+}
+.navbar>i{
+    color:var(--color-font);
 }

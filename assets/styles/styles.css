@@ -1,10 +1,11 @@
 :root{
     --color-font:#087299;
     --color-primary: #ffa91e;
+    --color-background: #fef9ef;
 }
 body{
     width: 100%;
-    background-color: #fef9ef;
+    background-color:var(--color-background);
     background-position: center center;
     background-attachment: fixed;
     overflow-x: hidden;
@@ -39,3 +40,6 @@ h1,h2,h3,h4,h5,h6{
 .navbar>i{
     color:var(--color-font);
 }
+.dropdown-menu{
+    background-color:var(--color-primary);
+        }
